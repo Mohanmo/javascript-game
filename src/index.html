@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sig Tuple</title>
+</head>
+<body>
+  <div class="main-container">
+
+    <!-- common header start -->
+    <header>
+        <h1 align="center">✨Sig Tuple Game✨</h1>        
+    </header>   
+    <!-- common header end -->
+
+
+    <!-- index home start -->
+    <div class="welcome-container">
+      <div class="welcome-container-head">
+        <h3>Welcome To Sig Tuple Game</h3>
+      </div>
+      <div class="welcome-container-icon">
+        <img src="../public/images/game-icon.png" alt="">
+      </div>
+      <div class="welcome-contaner-btn">
+        <button id="startPlay">PLAY NOW</button>
+      </div>
+    </div> 
+    <!-- index home end -->
+
+     <!-- selection Mode start -->
+     <div class="selection-container" style="display:none">
+        <div class="selection-container-head">
+          <h3>Select the Levels to Play</h3>
+        </div>
+        <div class="selection-container-list">          
+        </div>
+        <div class="selection-contaner-btn">
+          <button id="startNow" class="disabled">Start Game</button>
+        </div>
+      </div> 
+      <!-- selection Mode end -->
+
+       <!-- Play Mode start -->
+     <div class="play-container" style="display:none">
+        <div class="play-container-head">
+            <div class="play-high-score play-level">
+              LEVEL: <span class="play-level-name"></span>
+            </div>
+            <div class="play-high-score">
+              HIGN SCORE: <span class="high-score-count"></span>
+            </div>
+            <div class="play-high-score">
+                CURRENT SCORE: <span class="score-count"></span>
+            </div>
+            <div class="play-high-score play-timer">
+                REMAINING SECONDS:300s<span class="score-count"></span>
+            </div>
+        </div>       
+        <div class="play-container-table">
+          
+          </div>  
+        <div class="selection-contaner-btn">
+          <button id="reStartNow" style="visibility: hidden;">Restart Game</button>
+        </div>
+      </div> 
+      <!-- Play Mode end -->
+
+  </div>
+  
+</body>
+</html>

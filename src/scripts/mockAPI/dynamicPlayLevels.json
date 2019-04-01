@@ -1,0 +1,22 @@
+{
+  "playLevels":[
+    {
+      "levelName":"Easy",
+      "backgroudColor":"green",
+      "sizeOf":3,
+      "color":"#fff"
+    },
+    {
+      "levelName":"Medium",
+      "backgroudColor":"yellow",
+      "sizeOf":4,
+      "color":"#000"
+    },
+    {
+      "levelName":"Hard",
+      "backgroudColor":"Red",
+      "sizeOf":6,
+      "color":"#fff"
+    }
+  ]
+}

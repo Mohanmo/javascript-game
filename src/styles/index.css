@@ -1,0 +1,180 @@
+@import "resetting.css";
+
+body {
+  color: black;
+  background-color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-container {
+  box-shadow: 0px 1px 15px 6px #1d581da1;
+  padding: 15px;
+}
+
+.main-container header h1 {
+  color: blue;
+  font-size: 20px;
+}
+
+.welcome-container .welcome-container-main {
+  color: lightskyblue;
+}
+
+.welcome-container .welcome-contaner-btn button {
+  color: white;
+  background-color: green;
+  padding: 10px;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  width: 130px;
+  margin: 10px;
+  cursor: pointer;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+}
+
+.welcome-container .welcome-contaner-btn button:active,
+.welcome-container .welcome-contaner-btn button:focus {
+  border: none;
+  outline: none;
+}
+
+.welcome-container .welcome-contaner-btn button:hover {
+  border: none;  
+  background: #0b8c0b;
+  border-radius: 50%;
+}
+
+
+.welcome-container .welcome-container-head {
+  padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    opacity: 0.6;  
+}
+
+.welcome-container .welcome-container-icon img {
+  width: 150px;
+  height: auto;
+  padding-bottom: 5px;
+}
+
+.selection-container .selection-container-main {
+  color: lightskyblue;
+}
+
+.selection-container .selection-container-head {
+  padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    opacity: 0.6;
+}
+
+.play-container-head{
+  width: 40%;
+  margin: 0 auto;
+}
+
+
+
+.selection-container .selection-container-list {
+  padding: 10px;
+}
+
+.selection-container .selection-container-list .selection-container-list__ul {
+  list-style-type: none;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.selection-container .selection-container-list .selection-container-list__ul li {
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.play-container {
+  margin: 0 auto;
+}
+
+.play-container .play-container-table .table-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.play-container .play-container-table .table-container tr {
+  padding: 15px;
+  border: 1px solid #000;
+}
+
+.play-container .play-container-table .table-container tr td {
+  padding: 25px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.active {
+  background-color:rgb(160, 230, 160);
+}
+
+.play-container .play-container-table .table-container tr td:active {
+  background-color: green;
+}
+
+.play-container .play-container-head .play-level {
+  font-size: 13px;
+  padding: 10px;
+  width: 193px;
+  margin: 0 auto;
+  margin: 5px auto;
+  color: #581818;
+  border: 1px solid #fff;
+}
+
+.play-container .play-container-head .play-high-score {
+  font-size: 13px;
+    padding: 10px;
+    width: 191px;
+    margin: 0 auto;
+    margin: 5px auto;
+    border: 1px solid #fff;
+    color: #581818;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+button {
+  color: white;
+  background-color: green;
+  padding: 10px;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  width: 130px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:active,
+button:focus {
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  border: none;
+  background-color: #0b8c0b;
+}
+
+button.disabled {
+  cursor: not-allowed;
+  background-color: #fff;
+  color: #eee;
+  border: 1px solid #fff;
+}
